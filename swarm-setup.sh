@@ -1,6 +1,9 @@
 !#/bin/sh
 
--e set x
+set -e
+
+docker-machine ls
+
 
 
 
